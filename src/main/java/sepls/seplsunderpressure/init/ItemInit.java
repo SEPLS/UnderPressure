@@ -20,8 +20,9 @@ public class ItemInit {
     public static final RegistryObject<Item> LEAD_DUST = ITEMS.register("lead_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_SEARCH)));
     public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_SEARCH)));
     public static final RegistryObject<Item> TIN_DUST = ITEMS.register("tin_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_SEARCH)));
-    public static final RegistryObject<BlockItem> Tin_ore_item = ITEMS.register("tin_ore", () -> new BlockItem(BlockInit.TIN_ORE.get(),new Item.Properties().tab(CreativeModeTab.TAB_SEARCH)));
 
+    public static final RegistryObject<BlockItem> TIN_ORE_ITEM = ITEMS.register("tin_ore", () -> new BlockItem(BlockInit.TIN_ORE.get(),new Item.Properties().tab(CreativeModeTab.TAB_SEARCH)));
+    public static final RegistryObject<BlockItem> LEAD_ORE_ITEM = ITEMS.register("lead_ore", () -> new BlockItem(BlockInit.LEAD_ORE.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 
 
 }
