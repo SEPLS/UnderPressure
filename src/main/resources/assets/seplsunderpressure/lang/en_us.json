@@ -1,4 +1,10 @@
 {
   "item.seplsunderpressure.tin_ingot":"Tin Ingot",
-  "item.seplsunderpressure.lead_ingot":"Lead Ingot"
+  "item.seplsunderpressure.lead_ingot":"Lead Ingot",
+  "item.seplsunderpressure.bronze_ingot":"Bronze Ingot",
+  "item.seplsunderpressure.bronze_dust":"Bronze Dust",
+  "item.seplsunderpressure.silver_ingot":"Silver Ingot",
+  "item.seplsunderpressure.silver_dust":"Silver Dust",
+  "item.seplsunderpressure.copper_dust":"Copper Dust",
+  "item.seplsunderpressure.lead_dust":"Lead Dust"
 }
