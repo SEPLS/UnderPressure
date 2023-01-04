@@ -8,10 +8,11 @@ import sepls.seplsunderpressure.init.ItemInit;
 @Mod(SEPLSUnderPressure.MODID)
 
 public class SEPLSUnderPressure {
-    public static final String  MODID= "seplsunderpressure";
+    public static final String MODID = "seplsunderpressure";
 
-     public SEPLSUnderPressure () {
-         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-         ItemInit.ITEMS.register(bus);
-     }
+    public SEPLSUnderPressure(){
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ItemInit.ITEMS.register(bus);
+    }
 }
