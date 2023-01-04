@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "",
+  "ingredient": {
+    "item": "seplsunderpressure:bronze_dust"
+  },
+  "result": "seplsunderpressure:bronze_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}
