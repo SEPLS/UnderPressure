@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "seplsunderpressure:copper_dust"
+      },
+      {
+        "item": "seplsunderpressure:copper_dust"
+      },
+      {
+        "item": "seplsunderpressure:copper_dust"
+      }
+    ],
+    {
+      "item": "seplsunderpressure:tin_dust"
+    }
+  ],
+  "result": {
+    "item": "seplsunderpressure:bronze_dust"
+  }
+}
