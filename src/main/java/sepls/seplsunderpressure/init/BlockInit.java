@@ -22,7 +22,9 @@ public class BlockInit {
     public static final RegistryObject<Block> LEAD_ORE = BLOCKS.register("lead_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).friction(0.5f)));
     public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).friction(0.5f)));
     public static final RegistryObject<Block> BLOCK_OF_LEAD = BLOCKS.register("block_of_lead", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).friction(1f)));
-
+    public static final RegistryObject<Block> BLOCK_OF_SILVER = register("block_of_silver",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).friction(0.5f)),
+            new Item.Properties().tab(CreativeModeTab.TAB_SEARCH));
     private static <T extends  Block> RegistryObject<T> register(String name, Supplier<T> supplier, Item.Properties properties) {
         RegistryObject<T> block = BLOCKS.register(name, supplier);
         ItemInit.ITEMS.register(name,() -> new BlockItem(block.get(),properties));

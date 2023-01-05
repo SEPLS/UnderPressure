@@ -11,5 +11,6 @@
   "block.seplsunderpressure.lead_ore":"Lead Ore",
   "block.seplsunderpressure.tin_ore": "Tin Ore",
   "block.seplsunderpressure.tin_block": "Tin Block",
-  "block.seplsunderpressure.block_of_lead": "Lead Block"
+  "block.seplsunderpressure.block_of_lead": "Lead Block",
+  "block.seplsunderpressure.block_of_silver": "Silver Block"
 }
