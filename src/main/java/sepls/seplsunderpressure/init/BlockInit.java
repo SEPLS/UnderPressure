@@ -14,4 +14,5 @@ public class BlockInit {
 
     public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).friction(0.5f)));
     public static final RegistryObject<Block> LEAD_ORE = BLOCKS.register("lead_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).friction(0.5f)));
+    public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).friction(0.5f)));
 }

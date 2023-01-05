@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "",
+  "ingredient": {
+    "item": "seplsunderpressure:tin_ore"
+  },
+  "result": "seplsunderpressure:tin_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}
