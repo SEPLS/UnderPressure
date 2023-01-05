@@ -10,5 +10,6 @@
   "item.seplsunderpressure.tin_dust":"Tin Dust",
   "block.seplsunderpressure.lead_ore":"Lead Ore",
   "block.seplsunderpressure.tin_ore": "Tin Ore",
-  "block.seplsunderpressure.tin_block": "Tin Block"
+  "block.seplsunderpressure.tin_block": "Tin Block",
+  "block.seplsunderpressure.block_of_lead": "Lead Block"
 }
