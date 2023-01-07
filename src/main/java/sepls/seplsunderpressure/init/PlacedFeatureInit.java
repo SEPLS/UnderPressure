@@ -13,12 +13,10 @@ public class PlacedFeatureInit {
     public  static final DeferredRegister <PlacedFeature> PLACED_FEATURES = DeferredRegister.create(Registry.PLACED_FEATURE_REGISTRY, SEPLSUnderPressure.MODID );
 
     public static final RegistryObject<PlacedFeature> TIN_ORE = PLACED_FEATURES.register("tin_ore",
-            () -> new PlacedFeature(ConfiguredFeaturesInit.TIN_ORE.getHolder().get(),
-                    commonOrePlacement(1000, HeightRangePlacement.triangle(
+            () -> new PlacedFeature(ConfiguredFeatureInit.TIN_ORE.getHolder().get(),
+                    commonOrePlacement(40, HeightRangePlacement.triangle(
                             VerticalAnchor.bottom(),
-                            VerticalAnchor.absolute(40)
-                            )
-
+                            VerticalAnchor.absolute(40))
                     )));
 
     private static List<PlacementModifier> commonOrePlacement(int countPerChunk, PlacementModifier height) {
